@@ -82,9 +82,6 @@ export default function Navbar() {
                         layoutId="nav-desktop"
                         transition={{
                           type: "spring",
-                          duration: "0.6",
-                          // opacity: {ease: 'easeInOut'},
-                          // layout: {duration: 0.3},
                         }}
                         style={{ borderRadius: 9999 }}
                         className="absolute inset-0 bg-primary-border/50 "
