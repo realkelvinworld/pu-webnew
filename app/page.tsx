@@ -6,9 +6,9 @@ import { PentImage1, PentImage2, UA } from "./components/img";
 export default function Home() {
   return (
     <main className="relative pl-10 pr-10">
-      {/* <div className="gridbg inset-0 absolute z-10" /> */}
+      <div className="gridbg inset-0 absolute z-10" />
       {/* Hero Header */}
-      <section className="pt-20">
+      <section className="relative  z-10 pt-20">
         <div>
           <div className="flex flex-row justify-between flex-wrap pb-10">
             <h1 className="font-medium  leading-10 lg:text-6xl text-4xl ">
@@ -31,13 +31,14 @@ export default function Home() {
           </button>
         </div>
         {/* Slideshow  */}
-        <div className="mt-20">
+        <div className="mt-10">
           <div className=" flex items-center justify-center ">
             <Image
               src={UA}
-              className="lg:w-3/5 mt-10 mb-10 rounded-xl"
+              className="lg:w-full mb-10 rounded-xl"
               alt="University A+"
             />
+            {/* lg:w-3/5 */}
           </div>
           <h2 className="text-center">There will be a slideshow here</h2>
         </div>
@@ -73,11 +74,11 @@ export default function Home() {
         </div>
         {/* Images with button section */}
         <div className="my-24  ">
-          <div className="flex flex-wrap justify-around items-center -mx-10">
+          <div className="flex flex-wrap justify-around items-center  lg:-mx-10">
             <div className="mb-4">
               <Image
                 src={PentImage1}
-                className="w-imgmobile lg:w-img rounded-xl "
+                className="w-imgmobile lg:w-full rounded-xl "
                 alt=" pentecost universityengineering faculty images"
               />
               <h1 className="text-center font-medium">Robotics department</h1>
@@ -86,7 +87,7 @@ export default function Home() {
             <div className="mb-4">
               <Image
                 src={PentImage2}
-                className="w-imgmobile lg:w-img rounded-xl "
+                className="w-imgmobile lg:w-full rounded-xl "
                 alt=" pentecost universityengineering faculty images"
               />
               <h1 className="text-center font-medium">

@@ -57,9 +57,10 @@ export default function Navbar() {
       }flex relative z-[450] flex-col items-center`}
     >
       {/* nav-container */}
-      <div className="flex w-full flex-col items-center px-10 py-4">
+      <div className="flex relative w-full flex-col items-center px-10 py-4 ">
+        <div className="gridbg inset-0 absolute z-10" />
         {/* desktop */}
-        <div className="hidden w-full items-center justify-between md:flex">
+        <div className="hidden w-full items-center justify-between md:flex bg-transparent">
           {/* logo */}
           <div className="mr-16 w-12">
             <Image src={Logo} alt="Logo" className="" />
@@ -153,7 +154,7 @@ export default function Navbar() {
             <div>
               {/* logo */}
               <Link href={"/"}>
-                <div className="w-10">
+                <div className="w-">
                   <Image src={Logo} alt="Logo" />
                 </div>
               </Link>
