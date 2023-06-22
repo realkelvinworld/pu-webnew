@@ -33,7 +33,7 @@ body {
   background-image: url("../public/images/ingbg.svg");
   background-repeat: repeat;
   background-size: 10px;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 .w-img {
   width: 30rem;

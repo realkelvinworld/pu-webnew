@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import { ArrowTopRightOnSquareIcon, LinkIcon } from "@heroicons/react/24/solid";
-import { PentImage1, PentImage2, UA } from "./components/img";
+import { PentImage1, PentImage2, PentImage3, UA } from "./components/img";
 
 export default function Home() {
   return (
@@ -107,6 +107,98 @@ export default function Home() {
           </div>
         </div>
         {/* Statistics */}
+        <div className="-mx-10 my-20 flex flex-row items-center justify-around py-10 bg-yellow-400">
+          <div>
+            <h1 className="text-center text-xl font-semibold lg:text-5xl">
+              2000+ <br />
+              <span className="lg:text-5xl  text-lg">Students</span>
+            </h1>
+          </div>
+          <div>
+            <h1 className="text-center text-xl font-semibold lg:text-5xl">
+              300+ <br />
+              <span className="lg:text-5xl text-lg">Trained Staff</span>
+            </h1>
+          </div>
+          <div>
+            <h1 className="text-center text-xl font-semibold lg:text-5xl">
+              200K+ <br />
+              <span className="lg:text-5xl text-lg">Social Presence</span>
+            </h1>
+          </div>
+        </div>
+
+        {/* What we stand for */}
+        <div className="pb-20 mt-20">
+          <div className="flex flex-row justify-between items-center">
+            <hr className=" border-2 mr-4 -ml-10 w-full" />
+            <h1 className="rounded-full px-4 py-2.5 border-2 border-yellow-500 text-xl">
+              W
+            </h1>
+          </div>
+
+          {/* section content */}
+          <div>
+            <h2 className="text-left font-medium text-xl mb-6">Who Are We</h2>
+            <div className="flex flex-row justify-between flex-wrap">
+              <h1 className="text-4xl lg:text-6xl  font-semibold ">
+                WHAT WE <br /> STAND FOR
+              </h1>
+              <p className=" font-medium lg:text-2xl">
+                <span className="text-2xl font-semibold">VISION</span> <br />
+                To lead in cutting edge research in the multidisciplinary field
+                of manufacturing <br /> systems. To become a distinguished
+                research Centre that uses systematic <br /> methodology to
+                develop models for technological developments and <br />{" "}
+                innovations in the manufacturing industry <br />
+                <span className="text-2xl font-semibold">AIM</span> <br />
+                To conceive new ideas, model and design these ideas, test the
+                ideas and then <br /> implement the ideas
+                <br />
+                <span className="text-2xl font-semibold">GOAL</span> <br />
+                To fill the gaps in engineering solutions in Ghana and Africa.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* Message from the dean  */}
+        <div className="pb-20 mt-20">
+          <div className="flex flex-row justify-between items-center">
+            <h1 className="rounded-full px-4 py-2.5 border-2 border-yellow-500 text-xl">
+              M
+            </h1>
+            <hr className=" border-2 ml-4 -mr-10 w-full" />
+          </div>
+          {/* section content */}
+          <div>
+            <h2 className="text-right font-medium text-xl mb-6">
+              Message From The Dean
+            </h2>
+            <div className="flex flex-row justify-between flex-wrap">
+              <h1 className="text-4xl lg:text-6xl  font-semibold">
+                ANALYZE <br /> DESIGN <br /> DEVELOP
+              </h1>
+              <p className=" font-medium lg:text-2xl w-96">
+                Welcome to Pentecost University College's Faculty of
+                Engineering, Science, and Computing. We offer comprehensive
+                education in these fields, providing skills and knowledge for
+                success. Our experienced faculty, field trips, and industrial
+                attachment opportunities enhance learning. Prepare for a
+                promising future with our programs focused on problem-solving
+                and practical application. We are committed to delivering a
+                high-quality education.
+              </p>
+              <div className="mb-4 lg:w-96">
+                <Image
+                  src={PentImage3}
+                  className="w-imgmobile lg:w-full rounded-xl "
+                  alt=" pentecost universityengineering faculty images"
+                />
+                <h1 className="text-center font-medium">Robotics department</h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
