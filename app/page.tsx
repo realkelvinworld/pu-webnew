@@ -194,7 +194,7 @@ export default function Home() {
                   className="w-imgmobile lg:w-full rounded-xl "
                   alt=" pentecost universityengineering faculty images"
                 />
-                <h1 className="text-center font-semibold">
+                <h1 className="text-center font-semibold mt-2">
                   Mr. Yeboah - Dean of Faculty
                 </h1>
               </div>
