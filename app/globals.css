@@ -35,17 +35,9 @@ body {
   background-size: 10px;
   opacity: 0.1;
 }
-/* .unibg {
-  background-image: url("../public/images/uA+.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.1;
-} */
-.uniplus {
-  background: linear-gradient(
-    360deg,
-    rgba(25, 66, 143, 0.67) 1.78%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  border-radius: 10px;
+.w-img {
+  width: 30rem;
+}
+.w-imgmobile {
+  width: 24rem;
 }

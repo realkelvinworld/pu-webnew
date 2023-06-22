@@ -62,7 +62,7 @@ export default function Navbar() {
         <div className="hidden w-full items-center justify-between md:flex">
           {/* logo */}
           <div className="mr-16 w-12">
-            <Image src={Logo} alt="Logo" className=" w-36" />
+            <Image src={Logo} alt="Logo" className="" />
           </div>
           {/* navlinks */}
           <div className="flex w-auto items-center justify-center">
@@ -153,7 +153,7 @@ export default function Navbar() {
             <div>
               {/* logo */}
               <Link href={"/"}>
-                <div className="w-32">
+                <div className="w-10">
                   <Image src={Logo} alt="Logo" />
                 </div>
               </Link>
