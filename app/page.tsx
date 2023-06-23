@@ -122,7 +122,7 @@ export default function Home() {
           </div>
           <div>
             <h1 className="text-center text-xl font-semibold lg:text-5xl">
-              200K+ <br />
+              20K+ <br />
               <span className="lg:text-5xl text-lg">Social Presence</span>
             </h1>
           </div>
