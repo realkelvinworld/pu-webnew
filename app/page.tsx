@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-import { ArrowTopRightOnSquareIcon, LinkIcon } from "@heroicons/react/24/solid";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
 import { PentImage1, PentImage2, PentImage3, UA } from "./components/img";
 
 export default function Home() {

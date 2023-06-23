@@ -154,7 +154,7 @@ export default function Navbar() {
             <div>
               {/* logo */}
               <Link href={"/"}>
-                <div className="w-">
+                <div className="p-2">
                   <Image src={Logo} alt="Logo" />
                 </div>
               </Link>
