@@ -195,7 +195,7 @@ export default function Home() {
                   alt=" pentecost universityengineering faculty images"
                 />
                 <h1 className="text-center font-semibold mt-2">
-                  Mr. Yeboah - Dean of Faculty
+                  Prof. Mary Immaculate Sheela
                 </h1>
               </div>
             </div>
