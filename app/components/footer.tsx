@@ -10,8 +10,8 @@ function footer() {
     <footer className=" relative z-10 px-10 bg-transparent">
       <div className="gridbg inset-0 absolute z-10" />
       <main className="relative rounded-t-xl py-20 bg-blue-800 text-white">
-        <div className="text-center flex relative z-10 flex-wrap justify-between">
-          <div className="pb-10 w-96">
+        <div className="text-center flex relative z-10 flex-wrap justify-evenly">
+          <div className="pb-10 w-72">
             <h1 className="font-semibold text-xl">Admisions</h1>
             {Socials1.map((adminContent1) => {
               const { id, name, link } = adminContent1;
@@ -25,7 +25,7 @@ function footer() {
             })}
           </div>
 
-          <div className="pb-10 w-96">
+          <div className="pb-10 w-72">
             <h1 className="font-semibold text-xl">Online Services</h1>
             {Socials2.map((adminContent2) => {
               const { id, name, link } = adminContent2;
@@ -38,7 +38,7 @@ function footer() {
               );
             })}
           </div>
-          <div className="pb-10 w-96">
+          <div className="pb-10 w-72">
             <h1 className="font-semibold text-xl">Quick Links</h1>
             {Socials3.map((adminContent3) => {
               const { id, name, link } = adminContent3;
@@ -51,7 +51,7 @@ function footer() {
               );
             })}
           </div>
-          <div className="pb-10 w-96">
+          <div className="pb-10 w-72">
             <h1 className="font-semibold text-xl">Contact</h1>
             {Socials4.map((adminContent4) => {
               const { id, name } = adminContent4;

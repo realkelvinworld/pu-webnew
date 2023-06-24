@@ -2,7 +2,7 @@ export const Navlinks = [
   { id: 1, name: "Home", link: "/" },
   { id: 2, name: "About Us", link: "/about" },
   { id: 3, name: "Courses", link: "/courses" },
-  { id: 4, name: "Requirements", link: "/requirements" },
+  { id: 4, name: "Our Team", link: "/our team" },
   { id: 8, name: "News", link: "/news" },
 ];
 
@@ -100,6 +100,11 @@ export const Socials3 = [
     id: 6,
     name: "FAQ's",
     link: "http://library.pentvars.edu.gh/",
+  },
+  {
+    id: 6,
+    name: "Staff Directory",
+    link: "https://pentvars.edu.gh/staff-directory/",
   },
 ];
 export const Socials4 = [

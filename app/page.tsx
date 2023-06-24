@@ -54,10 +54,10 @@ export default function Home() {
           <div>
             <h2 className="text-right font-medium text-xl mb-6">About Us</h2>
             <div className="flex flex-row justify-between flex-wrap">
-              <h1 className="text-4xl lg:text-6xl  font-semibold ">
+              <h1 className="text-4xl lg:text-5xl  font-semibold ">
                 WE BELIEVE IN <br /> QUALITY
               </h1>
-              <p className=" font-medium lg:text-2xl">
+              <p className=" font-medium lg:text-xl">
                 We support education in cutting-edge engineering fields like
                 Electricals and <br /> Electronics, Robotics and Automation,
                 Manufacturing, Systems, and <br /> Environmental Engineering.
@@ -111,19 +111,19 @@ export default function Home() {
           <div>
             <h1 className="text-center text-xl font-semibold lg:text-5xl">
               2000+ <br />
-              <span className="lg:text-5xl  text-lg">Students</span>
+              <span className="lg:text-4xl  text-lg">Students</span>
             </h1>
           </div>
           <div>
             <h1 className="text-center text-xl font-semibold lg:text-5xl">
               300+ <br />
-              <span className="lg:text-5xl text-lg">Trained Staff</span>
+              <span className="lg:text-4xl text-lg">Trained Staff</span>
             </h1>
           </div>
           <div>
             <h1 className="text-center text-xl font-semibold lg:text-5xl">
               20K+ <br />
-              <span className="lg:text-5xl text-lg">Social Presence</span>
+              <span className="lg:text-4xl text-lg">Social Presence</span>
             </h1>
           </div>
         </div>
@@ -141,10 +141,10 @@ export default function Home() {
           <div>
             <h2 className="text-left font-medium text-xl mb-6">Who Are We</h2>
             <div className="flex flex-row justify-between flex-wrap">
-              <h1 className="text-4xl lg:text-6xl  font-semibold ">
+              <h1 className="text-4xl lg:text-5xl  font-semibold ">
                 WHAT WE <br /> STAND FOR
               </h1>
-              <p className=" font-medium lg:text-2xl">
+              <p className=" font-medium lg:text-xl">
                 <span className="text-2xl font-semibold">VISION</span> <br />
                 To lead in cutting edge research in the multidisciplinary field
                 of manufacturing <br /> systems. To become a distinguished
@@ -175,10 +175,10 @@ export default function Home() {
               Message From The Dean
             </h2>
             <div className="flex flex-row justify-between flex-wrap">
-              <h1 className="text-4xl lg:text-6xl  font-semibold">
+              <h1 className="text-4xl lg:text-5xl  font-semibold">
                 ANALYZE <br /> DESIGN <br /> DEVELOP
               </h1>
-              <p className=" font-medium lg:text-2xl w-96">
+              <p className=" font-medium lg:text-xl w-96">
                 Welcome to Pentecost University College's Faculty of
                 Engineering, Science, and Computing. We offer comprehensive
                 education in these fields, providing skills and knowledge for
