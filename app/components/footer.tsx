@@ -9,7 +9,7 @@ function footer() {
   return (
     <footer className=" relative z-10 px-10 bg-transparent">
       <div className="gridbg inset-0 absolute z-10" />
-      <main className="relative rounded-t-xl py-20 bg-blue-800 text-white">
+      <main className="relative rounded-t-xl pt-20 pb-10 bg-blue-800 text-white">
         <div className="text-center flex relative z-10 flex-wrap justify-evenly">
           <div className="pb-10 w-72">
             <h1 className="font-semibold text-xl">Admisions</h1>
