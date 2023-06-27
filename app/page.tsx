@@ -27,6 +27,7 @@ export default function Home() {
                 src={LogoFull}
                 alt="Pentvarrs"
                 className="text-center w-96"
+                priority
               />
             </div>
           </div>
@@ -94,6 +95,7 @@ export default function Home() {
                 src={PentImage1}
                 className="w-imgmobile lg:w-full rounded-xl "
                 alt=" pentecost universityengineering faculty images"
+                priority
               />
               <h1 className="text-center font-medium">Robotics department</h1>
             </div>
@@ -103,6 +105,7 @@ export default function Home() {
                 src={PentImage2}
                 className="w-imgmobile lg:w-full rounded-xl "
                 alt=" pentecost universityengineering faculty images"
+                priority
               />
               <h1 className="text-center font-medium">
                 Engeneering students on the field
@@ -207,6 +210,7 @@ export default function Home() {
                   src={PentImage3}
                   className="w-imgmobile lg:w-full rounded-xl "
                   alt=" pentecost universityengineering faculty images"
+                  priority
                 />
                 <h1 className="text-center font-semibold mt-2">
                   Prof. Mary Immaculate Sheela
