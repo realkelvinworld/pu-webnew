@@ -1,24 +1,8 @@
 "use client";
 import { useState } from "react";
 import { ArrowLeft2, ArrowRight2 } from "iconsax-react";
-import { Circle } from "react-feather";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-// import {
-//   slide1,
-//   slide10,
-//   slide2,
-//   slide3,
-//   slide4,
-//   slide5,
-//   slide6,
-//   slide7,
-//   slide8,
-//   slide9,
-// } from "../components/img";
-// import Image from "next/image";
-
-function slides() {
+function Slides() {
   const slides = [
     {
       id: 0,
@@ -103,4 +87,4 @@ function slides() {
   );
 }
 
-export default slides;
+export default Slides;
