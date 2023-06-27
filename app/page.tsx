@@ -11,7 +11,7 @@ export default function Home() {
       {/* Hero Header */}
       <section className="relative  z-10 ">
         <div className="">
-          <div className="flex flex-row pt-40 pb-44 justify-between flex-wrap-reverse">
+          <div className="flex flex-row pt-40 pb-32 justify-between flex-wrap-reverse">
             <div>
               <h1 className="font-medium  leading-10 lg:text-6xl text-4xl ">
                 Welcome to the <br /> Faculty Of Engineering <br />
@@ -32,17 +32,17 @@ export default function Home() {
           </div>
           <div className="-mx-10 mt-20 py-10 flex flex-row items-center justify-around bg-blue-800">
             <div>
-              <h1 className="text-center text-xl font-semibold lg:text-5xl text-gray-400">
+              <h1 className="text-center text-xl font-semibold lg:text-5xl text-white">
                 Educate
               </h1>
             </div>
             <div>
-              <h1 className="text-center text-xl font-semibold lg:text-5xl text-gray-400">
+              <h1 className="text-center text-xl font-semibold lg:text-5xl text-white">
                 Innovate
               </h1>
             </div>
             <div>
-              <h1 className="text-center text-xl font-semibold lg:text-5xl text-gray-400">
+              <h1 className="text-center text-xl font-semibold lg:text-5xl text-white">
                 Develop
               </h1>
             </div>
