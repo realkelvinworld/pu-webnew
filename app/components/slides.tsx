@@ -5,22 +5,22 @@ import { ArrowLeft2, ArrowRight2 } from "iconsax-react";
 function Slides() {
   const slides = [
     {
-      img: "../images/slideimg1.svg",
+      img: "../images/slideimg1.jpg",
     },
     {
-      img: "../images/slideimg2.svg",
+      img: "../images/slideimg2.jpg",
     },
     {
-      img: "../images/slideimg3.svg",
+      img: "../images/slideimg3.jpg",
     },
     {
-      img: "../images/slideimg4.svg",
+      img: "../images/slideimg4.jpg",
     },
     {
-      img: "../images/slideimg5.svg",
+      img: "../images/slideimg5.jpg",
     },
     {
-      img: "../images/slideimg6.svg",
+      img: "../images/slideimg6.jpg",
     },
     {
       img: "../images/slideimg7.svg",
