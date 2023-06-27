@@ -1,47 +1,61 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
+import Slides from "./components/slides";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
-import { PentImage1, PentImage2, PentImage3, UA } from "./components/img";
+import { LogoFull, PentImage1, PentImage2, PentImage3 } from "./components/img";
 
 export default function Home() {
   return (
     <main className="relative pl-10 pr-10">
       <div className="gridbg inset-0 absolute z-10" />
       {/* Hero Header */}
-      <section className="relative  z-10 pt-20">
-        <div>
-          <div className="flex flex-row justify-between flex-wrap pb-10">
-            <h1 className="font-medium  leading-10 lg:text-6xl text-4xl ">
-              Welcome to the <br /> Faculty Of Engineering <br />
-              Science and Computing
-            </h1>
-            <h2 className="text-left text-lg lg:text-right">
-              -Since March 2003
+      <section className="relative  z-10 ">
+        <div className="">
+          <div className="flex flex-row pt-40 pb-44 justify-between flex-wrap-reverse">
+            <div>
+              <h1 className="font-medium  leading-10 lg:text-6xl text-4xl ">
+                Welcome to the <br /> Faculty Of Engineering <br />
+                Science and Computing
+              </h1>
               <br />
-              <span className="font-medium ">
-                Educate
-                <br />
-                Inovate <br />
-                Develop
-              </span>
-            </h2>
+              <button className=" border rounded-lg px-10 py-2 text-white bg-blue-800 flex">
+                Apply Now <ArrowTopRightOnSquareIcon className="w-5" />
+              </button>
+            </div>
+            <div>
+              <Image
+                src={LogoFull}
+                alt="Pentvarrs"
+                className="text-center w-96"
+              />
+            </div>
           </div>
-          <button className=" border rounded-lg px-10 py-2 text-white bg-blue-800 flex">
-            Apply Now <ArrowTopRightOnSquareIcon className="w-5" />
-          </button>
+          <div className="-mx-10 mt-20 py-10 flex flex-row items-center justify-around bg-blue-800">
+            <div>
+              <h1 className="text-center text-xl font-semibold lg:text-5xl text-gray-400">
+                Educate
+              </h1>
+            </div>
+            <div>
+              <h1 className="text-center text-xl font-semibold lg:text-5xl text-gray-400">
+                Innovate
+              </h1>
+            </div>
+            <div>
+              <h1 className="text-center text-xl font-semibold lg:text-5xl text-gray-400">
+                Develop
+              </h1>
+            </div>
+          </div>
         </div>
         {/* Slideshow  */}
-        <div className="mt-10">
-          <div className=" flex items-center justify-center ">
-            <Image
-              src={UA}
-              className="lg:w-full mb-10 rounded-xl"
-              alt="University A+"
-            />
-            {/* lg:w-3/5 */}
-          </div>
-          <h2 className="text-center">There will be a slideshow here</h2>
+        <div className="pt-32">
+          <h1 className="text-center text-4xl lg:text-5xl  font-semibold">
+            A Glimpse of who we are and what we do
+          </h1>
+          <Slides />
         </div>
+
         {/* About */}
         <div className="pb-20 mt-20">
           <div className="flex flex-row justify-between items-center">
