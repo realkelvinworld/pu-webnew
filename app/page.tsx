@@ -70,7 +70,7 @@ export default function Home() {
             <h2 className="text-right font-medium text-xl mb-6">About Us</h2>
             <div className="flex flex-row justify-between flex-wrap">
               <h1 className="text-4xl lg:text-5xl  font-semibold ">
-                WE BELIEVE IN <br /> QUALITY
+                WE BELIEVE <br /> IN QUALITY <br /> EDUCATION
               </h1>
               <p className=" font-medium lg:text-xl">
                 We support education in cutting-edge engineering fields like
