@@ -36,7 +36,8 @@ function page() {
                 />
                 <h2 className="text-center  font-semibold text-xl py-6">
                   {" "}
-                  Mr.Isaac Kumah Yeboah
+                  Mr.Isaac Kumah Yeboah <br />
+                  <span className="text-lg font-medium">(Head of IDC)</span>
                 </h2>
               </div>
               <ul className=" font-medium lg:text-xl w-[50rem]">
@@ -46,7 +47,8 @@ function page() {
                 Robotic Academy Foundation in October 2012. Project leader for
                 the Texas Instrument innovation challenge Europe analog design
                 contest 2014. <br />
-                <span className="font-semibold px-2 bg-yellow-500 border-l-4 border-blue-800">
+                <br />
+                <span className=" font-semibold px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Expertise
                 </span>
                 <li>
@@ -61,6 +63,7 @@ function page() {
                   at the edge, digital twin technology in industry automation,
                   digital communication, and wireless technology.
                 </li>
+                <br />
                 <span className="font-semibold px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Publications
                 </span>
@@ -70,6 +73,7 @@ function page() {
                   "Optimization of Ultrasonic Flow Meter for Crude Oil Metering"
                   published by LAMBERT Academic Publishing in Germany.
                 </li>
+                <br />
                 <span className="font-semibold px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Professional Memberships
                 </span>
@@ -78,6 +82,7 @@ function page() {
                   Institute, World Scientific and Engineering Academy Society,
                   and Ghana Science Association.
                 </li>
+                <br />
                 <span className="font-semibold px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Experience
                 </span>
@@ -88,6 +93,7 @@ function page() {
                   College and Regent University College of Science and
                   Technology.
                 </li>
+                <br />
                 <span className="font-semibold px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Committee Involvement
                 </span>
@@ -119,6 +125,7 @@ function page() {
                 Multi-Carrier Applications" featured in Volume 3 (2002), Issue
                 3, Pages 874-885 by the International Telecommunication Union in
                 2022. <br />
+                <br />
                 <span className="font-semibold  px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Expertise
                 </span>
@@ -131,6 +138,7 @@ function page() {
                   forensics, information security, artificial intelligence, and
                   expert systems.
                 </li>
+                <br />
                 <span className="font-semibold  px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Work Experience
                 </span>
@@ -138,6 +146,7 @@ function page() {
                   I.T Support Technician from 2012 to 2016. Management
                   Information System Officer (MIS Officer) from 2016 to 2021
                 </li>
+                <br />
                 <span className="font-semibold  px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Student Mentorship
                 </span>
@@ -145,6 +154,7 @@ function page() {
                   Student mentor in the area of Information Technology (I.T) at
                   Pentecost University from 2014 to the present.
                 </li>
+                <br />
                 <span className="font-semibold  px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Areas of Interest
                 </span>
@@ -161,7 +171,10 @@ function page() {
                 />
                 <h2 className="text-center  font-semibold text-xl py-6">
                   {" "}
-                  Mathew Asiedu
+                  Mathew Asiedu <br />
+                  <span className="text-lg font-medium">
+                    (Executive Assistant at IDC)
+                  </span>
                 </h2>
               </div>
             </div>
@@ -186,13 +199,17 @@ function page() {
                 />
                 <h2 className="text-center  font-semibold text-xl py-6">
                   {" "}
-                  Richard Brace
+                  Richard Brace <br />
+                  <span className="text-lg font-medium">
+                    (Research Fellow at IDC)
+                  </span>
                 </h2>
               </div>
               <ul className=" font-medium lg:text-xl w-[50rem]">
                 Co-author of publications on advanced communication technologies
                 and green human resource management. Co-author of practical
                 books on cost engineering and engineering practices. <br />
+                <br />
                 <span className="font-semibold px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Expertise
                 </span>
@@ -203,6 +220,7 @@ function page() {
                   in engineering, including machine learning, data analytics,
                   optimization algorithms, and computer-aided design.
                 </li>
+                <br />
                 <span className="font-semibold px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Professionalism
                 </span>
@@ -212,6 +230,7 @@ function page() {
                   certifications in AI technologies, computer-aided design,
                   programming, and animation.
                 </li>
+                <br />
                 <span className="font-semibold px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Collaboration
                 </span>
@@ -221,6 +240,7 @@ function page() {
                   AI and computing. Valuable asset to the academic and research
                   community.
                 </li>
+                <br />
                 <span className="font-semibold px-2 bg-yellow-500 border-l-4 border-blue-800">
                   Team Members in Science Department
                 </span>

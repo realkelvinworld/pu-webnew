@@ -60,7 +60,7 @@ export default function Navbar() {
       <div className="flex relative w-full flex-col items-center px-10 py-4 ">
         <div className="gridbg inset-0 absolute z-10" />
         {/* desktop */}
-        <div className="hidden w-full items-center justify-between md:flex bg-transparent">
+        <div className="hidden relative z-10 w-full items-center justify-between md:flex bg-transparent">
           {/* logo */}
           <div className="mr-16 w-12">
             <Image src={Logo} alt="Logo" className="" />
@@ -155,7 +155,7 @@ export default function Navbar() {
               {/* logo */}
               <Link href={"/"}>
                 <div className="p-2">
-                  <Image src={Logo} alt="Logo" />
+                  <Image src={Logo} className="w-12" alt="Logo" />
                 </div>
               </Link>
             </div>
