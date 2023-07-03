@@ -33,7 +33,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="flex flex-col w-full">
+          <div className="flex flex-col -mx-10 ">
             <ParallaxscrollX baseVelocity={2}>
               <div className="bg-blue-800 flex space-x-4 py-6 text-white ">
                 {parallaxScroll.map((p1) => {
@@ -142,7 +142,7 @@ export default function Home() {
         </div>
         {/* Statistics */}
 
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col -mx-10">
           <ParallaxscrollX baseVelocity={2}>
             <div className="bg-yellow-400 flex space-x-4 py-5 ">
               {parallaxScroll2.map((p2) => {
