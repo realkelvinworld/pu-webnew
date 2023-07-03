@@ -152,7 +152,9 @@ export default function Home() {
                     <h1 className=" text-xl font-semibold lg:text-5xl">
                       {text1} &nbsp;
                     </h1>
-                    <h1 className="lg:text-3xl  text-lg">{text2} &nbsp;</h1>
+                    <h1 className="lg:text-3xl font-medium text-lg">
+                      {text2} &nbsp;
+                    </h1>
                   </div>
                 );
               })}
