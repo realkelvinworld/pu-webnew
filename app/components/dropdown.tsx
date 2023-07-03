@@ -14,7 +14,7 @@ export default function Dropdown({ details, employment }: dropdownProps) {
         onClick={toggle}
         className="bg-blue-800 p-4 text-white w-full flex items-center justify-between font-semibold rounded-lg text-lg tracking-wider border-4 border-transparent active:border-white duration-300 active:text-white"
       >
-        Dropdown
+        Details of the Course{" "}
         {!isOpen ? (
           <ArrowDown2 className="w-6 h-6" />
         ) : (
