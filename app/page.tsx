@@ -12,7 +12,7 @@ export default function Home() {
       <div className="gridbg inset-0 absolute z-10" />
       {/* Hero Header */}
       <section className="relative  z-10 ">
-        <div className="">
+        <div className="h-screen">
           <div className="flex flex-row pt-40 pb-32 justify-between flex-wrap-reverse">
             <div>
               <h1 className="font-medium  leading-10 lg:text-6xl text-4xl ">
@@ -33,7 +33,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="flex flex-col -mx-10 ">
+          <div className="flex flex-col pt-20 -mx-10 ">
             <ParallaxscrollX baseVelocity={2}>
               <div className="bg-blue-800 flex space-x-4 py-6 text-white ">
                 {parallaxScroll.map((p1) => {
