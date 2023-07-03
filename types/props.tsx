@@ -100,3 +100,7 @@ export type waitlistformProps = {
   emailAddress: string;
   [key: string]: string | undefined;
 };
+export type dropdownProps = {
+  details: string;
+  employment: string;
+};

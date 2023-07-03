@@ -1,7 +1,10 @@
+"use client";
 import React from "react";
-import { course1, courseOne } from "../components/db";
+import { courseOne } from "../components/db";
+import Dropdown from "../components/dropdown";
 
 function page() {
+  // const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="pb-72 relative flex justify-center">
       <div className="gridbg inset-0 absolute z-10" />
@@ -23,13 +26,14 @@ function page() {
           </p>
         </div>
         {/* Course content */}
-        <div className="border text-center">
+        <div className=" text-center relative">
           {courseOne.map((c1) => {
-            const { id, title, description } = c1;
+            const { id, title, description, details, employment } = c1;
             return (
               <div key={id} className="py-20">
                 <h1 className="text-2xl font-semibold">{title}</h1>
                 <p className="font-medium">{description}</p>
+                <Dropdown details={details} employment={employment} />
               </div>
             );
           })}
