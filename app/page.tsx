@@ -3,6 +3,8 @@ import Image from "next/image";
 import Slides from "./components/slides";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
 import { LogoFull, PentImage1, PentImage2, PentImage3 } from "./components/img";
+import ParallaxscrollX from "./components/ps-x";
+import { parallaxScroll, parallaxScroll2 } from "./components/db";
 
 export default function Home() {
   return (
@@ -31,7 +33,22 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="-mx-10 mt-20 py-10 flex flex-row items-center justify-around bg-blue-800">
+          <div className="flex flex-col w-full">
+            <ParallaxscrollX baseVelocity={2}>
+              <div className="bg-blue-800 flex space-x-4 py-6 text-white ">
+                {parallaxScroll.map((p1) => {
+                  const { id, text } = p1;
+                  return (
+                    <div key={id} className="">
+                      <h1 className="text-5xl font-semibold">{text} &nbsp;</h1>
+                    </div>
+                  );
+                })}
+              </div>
+            </ParallaxscrollX>
+          </div>
+
+          {/* <div className="-mx-10 mt-20 py-10 flex flex-row items-center justify-around bg-blue-800">
             <div>
               <h1 className="text-center text-xl font-semibold lg:text-5xl text-white">
                 Educate
@@ -47,7 +64,7 @@ export default function Home() {
                 Develop
               </h1>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* Slideshow  */}
         <div className="pt-32">
@@ -124,7 +141,25 @@ export default function Home() {
           </div>
         </div>
         {/* Statistics */}
-        <div className="-mx-10 my-20 flex flex-row items-center justify-around py-10 bg-yellow-400">
+
+        <div className="flex flex-col w-full">
+          <ParallaxscrollX baseVelocity={2}>
+            <div className="bg-yellow-400 flex space-x-4 py-5 ">
+              {parallaxScroll2.map((p2) => {
+                const { id, text1, text2 } = p2;
+                return (
+                  <div key={id} className="text-center">
+                    <h1 className=" text-xl font-semibold lg:text-5xl">
+                      {text1} &nbsp;
+                    </h1>
+                    <h1 className="lg:text-3xl  text-lg">{text2} &nbsp;</h1>
+                  </div>
+                );
+              })}
+            </div>
+          </ParallaxscrollX>
+        </div>
+        {/* <div className="-mx-10 my-20 flex flex-row items-center justify-around py-10 bg-yellow-400">
           <div>
             <h1 className="text-center text-xl font-semibold lg:text-5xl">
               2000+ <br />
@@ -143,7 +178,7 @@ export default function Home() {
               <span className="lg:text-4xl text-lg">Social Presence</span>
             </h1>
           </div>
-        </div>
+        </div> */}
 
         {/* What we stand for */}
         <div className="pb-20 mt-20">
